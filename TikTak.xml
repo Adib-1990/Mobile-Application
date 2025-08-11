@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Player1 = 0 " />
+
+    <TextView
+        android:id="@+id/txtP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Player2 = 0" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="#f88c00"
+        android:text="Reset Play"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN1"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btnN2"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btnN3"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2196F3"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN4"
+                android:layout_width="wrap_content"
+                android:backgroundTint="#2196F3"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btnN5"
+                android:backgroundTint="#2196F3"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btnN6"
+                android:backgroundTint="#2196F3"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnN7"
+                android:backgroundTint="#2196F3"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btnN8"
+                android:backgroundTint="#2196F3"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btnN9"
+                android:backgroundTint="#2196F3"
+                android:layout_width="wrap_content"
+                android:layout_height="177dp"
+                android:layout_weight="1"
+                android:text="9" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
